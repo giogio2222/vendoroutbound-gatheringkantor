@@ -1,0 +1,221 @@
+/* Custom Styles for Sewa Paintball Batu Malang */
+:root {
+    --primary-color: #d32f2f;
+    --secondary-color: #2e7d32;
+    --accent-color: #ff9800;
+    --dark-color: #212121;
+    --light-color: #f8f9fa;
+    --wa-color: #25d366;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.nav-link {
+    font-weight: 600;
+    color: var(--dark-color) !important;
+}
+
+.nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    padding: 100px 0;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/img/area-paintball.webp');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 12px 30px;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #b71c1c;
+    transform: translateY(-3px);
+}
+
+/* Floating Elements */
+.floating-wa {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    background-color: var(--wa-color);
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.floating-wa:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+.floating-up {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    z-index: 9998;
+    background-color: var(--primary-color);
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: none; /* Hidden by default */
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.floating-up:hover {
+    transform: scale(1.1);
+}
+
+/* Articles */
+.article-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+
+.article-card:hover {
+    transform: translateY(-10px);
+}
+
+.article-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.article-card .card-body {
+    padding: 25px;
+}
+
+.article-card .card-title {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #fff;
+    padding: 50px 0 20px;
+    border-top: 5px solid var(--primary-color);
+}
+
+.footer-logo {
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+/* TOC */
+.toc-container {
+    background: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.toc-title {
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.toc-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.toc-list li {
+    margin-bottom: 8px;
+}
+
+.toc-list a {
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+.toc-list a:hover {
+    color: var(--primary-color);
+}
+
+.toc-list .h3-link {
+    padding-left: 20px;
+}
+
+/* Author Profile */
+.author-profile {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    margin-top: 40px;
+}
+
+.author-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* Responsive fixes */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.2rem;
+    }
+}

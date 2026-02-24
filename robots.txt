@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://vendor-outbound-gathering.com/sitemap.xml
+
+Sitemap: https://sewa-areapaintball-batumalang.netlify.app/sitemap.xml

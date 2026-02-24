@@ -4,43 +4,38 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://vendor-outbound-gathering.com/</loc>
-        <lastmod>2026-02-24</lastmod>
+        <loc>https://sewa-areapaintball-batumalang.netlify.app/</loc>
+        <lastmod>2024-03-24T12:00:00+00:00</lastmod>
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://vendor-outbound-gathering.com/index.html</loc>
-        <lastmod>2026-02-24</lastmod>
+        <loc>https://sewa-areapaintball-batumalang.netlify.app/blog.html</loc>
+        <lastmod>2024-03-24T12:00:00+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://vendor-outbound-gathering.com/blog.html</loc>
-        <lastmod>2026-02-24</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://vendor-outbound-gathering.com/tips-memilih-vendor-outbound-terbaik.html</loc>
-        <lastmod>2026-02-24</lastmod>
+        <loc>https://sewa-areapaintball-batumalang.netlify.app/manfaat-bermain-paintball-untuk-team-building.html</loc>
+        <lastmod>2024-03-24T12:00:00+00:00</lastmod>
         <priority>0.70</priority>
     </url>
     <url>
-        <loc>https://vendor-outbound-gathering.com/manfaat-gathering-kantor-untuk-tim.html</loc>
-        <lastmod>2026-02-24</lastmod>
+        <loc>https://sewa-areapaintball-batumalang.netlify.app/tips-menang-bermain-paintball-di-batu.html</loc>
+        <lastmod>2024-03-24T12:00:00+00:00</lastmod>
         <priority>0.70</priority>
     </url>
     <url>
-        <loc>https://vendor-outbound-gathering.com/rekomendasi-lokasi-gathering-kantor-populer.html</loc>
-        <lastmod>2026-02-24</lastmod>
+        <loc>https://sewa-areapaintball-batumalang.netlify.app/perlengkapan-wajib-saat-bermain-paintball.html</loc>
+        <lastmod>2024-03-24T12:00:00+00:00</lastmod>
         <priority>0.70</priority>
     </url>
     <url>
-        <loc>https://vendor-outbound-gathering.com/ide-permainan-outbound-menarik-untuk-karyawan.html</loc>
-        <lastmod>2026-02-24</lastmod>
+        <loc>https://sewa-areapaintball-batumalang.netlify.app/area-paintball-terbaik-di-kota-batu.html</loc>
+        <lastmod>2024-03-24T12:00:00+00:00</lastmod>
         <priority>0.70</priority>
     </url>
     <url>
-        <loc>https://vendor-outbound-gathering.com/panduan-lengkap-merencanakan-gathering-kantor.html</loc>
-        <lastmod>2026-02-24</lastmod>
+        <loc>https://sewa-areapaintball-batumalang.netlify.app/panduan-keamanan-bermain-paintball-bagi-pemula.html</loc>
+        <lastmod>2024-03-24T12:00:00+00:00</lastmod>
         <priority>0.70</priority>
     </url>
 </urlset>
